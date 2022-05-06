@@ -1,6 +1,6 @@
 {
   "name": "@mentorcub/tailwindcss",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "MentorCub's customized Tailwind CSS configuration.",
   "private": "false",
   "author": {
