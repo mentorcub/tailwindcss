@@ -1,7 +1,7 @@
 {
   "name": "@mentorcub/tailwindcss",
   "version": "0.0.1",
-  "description": "MentorCub's customized Tailwind CSS configuration that matches .",
+  "description": "MentorCub's customized Tailwind CSS configuration.",
   "private": "false",
   "author": {
     "name": "Edwin Kys",
