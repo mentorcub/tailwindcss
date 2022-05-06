@@ -2,9 +2,52 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-    "./layouts/**/*.{js,ts,jsx,tsx}"
+    "./layouts/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+      transparent: "transparent",
+      current: "currentColor",
+      primary: "#ffe9a6",
+      secondary: "#ffdf80",
+      white: "#ffffff",
+      gray: {
+        dark: "#333333",
+        light: "#cccccc",
+      },
+      red: "#ff6666",
+      green: "#2ac940",
+    },
+    fontFamily: {
+      sans: ["Plus Jakarta Sans", "sans-serif"],
+    },
+    fontSize: {
+      sm: ["0.75rem", "1.8"],
+      base: ["1rem", "1.8"],
+      lg: ["1.5rem", "1.4"],
+      xl: ["2rem", "1.4"],
+      xxl: ["3rem", "1.4"],
+    },
+    fontWeight: {
+      normal: 400,
+      bold: 700,
+    },
+    letterSpacing: {
+      base: "0",
+    },
+    spacing: {
+      xs: "0.5rem",
+      sm: "0.75rem",
+      md: "1.5rem",
+      lg: "3rem",
+      xl: "6rem",
+    },
+    borderRadius: {
+      base: "0.5rem",
+    },
+    boxShadow: {
+      base: "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+    },
     extend: {},
   },
   plugins: [],
