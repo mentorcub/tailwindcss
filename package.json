@@ -6,6 +6,7 @@
     "name": "Edwin Kys",
     "email": "edwin@mentorcub.com"
   },
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
