@@ -14,7 +14,7 @@ To have this package set up properly, you need to have installed Tailwind CSS. P
 npm i @mentorcub/tailwindcss
 ```
 
-### Tailwind CSS Config
+### Tailwind CSS Configuration
 
 After installing the package, add a `tailwind.config.js` file in the root of your project. Write the line below inside of the config file.
 
@@ -22,7 +22,7 @@ After installing the package, add a `tailwind.config.js` file in the root of you
 module.exports = require("@mentorcub/tailwindcss/tailwind.config");
 ```
 
-### PostCSS Config
+### PostCSS Configuration
 
 After that, we also need to setup the `postcss.config.js` file with the configuration that is required by Tailwind CSS.
 
