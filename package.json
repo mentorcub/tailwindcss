@@ -1,0 +1,26 @@
+{
+  "name": "@mentorcub/tailwindcss",
+  "version": "0.0.1",
+  "description": "MentorCub's customized Tailwind CSS configuration that matches .",
+  "private": "false",
+  "author": {
+    "name": "Edwin Kys",
+    "email": "edwin@mentorcub.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "tailwindcss",
+    "css",
+    "mentorcub"
+  ],
+  "scripts": {
+    "test": "echo \"Warning: There is no test specified.\""
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  }
+}
