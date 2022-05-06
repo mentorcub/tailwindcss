@@ -2,9 +2,11 @@
 
 We use Tailwind CSS to style our applications. Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces that is highly customizable.
 
-This repository contains Tailwind CSS configuration, `tailwind.config.js`, that we will probably use in most of our applications and Post CSS configuration, `postcss.config.js` which is required by Tailwind CSS. The reason we create this repository is to prevent copy-pasting these Tailwind related files in case we change it in the future.
+This repository contains Tailwind CSS configuration, `tailwind.config.js`, that we will probably use in most of our applications and PostCSS configuration, `postcss.config.js` which is required by Tailwind CSS. The reason we create this repository is to prevent copy-pasting these Tailwind related files in case we change it in the future.
 
 ## Installation
+
+### Package Installation
 
 To have this package set up properly, you need to have installed Tailwind CSS. Please refer to [Tailwind CSS Installation](https://tailwindcss.com/docs/installation/using-postcss). After that, you can install this package by running the command below:
 
@@ -12,16 +14,30 @@ To have this package set up properly, you need to have installed Tailwind CSS. P
 npm i @mentorcub/tailwindcss
 ```
 
+### Tailwind CSS Config
+
 After installing the package, add a `tailwind.config.js` file in the root of your project. Write the line below inside of the config file.
 
 ```js
 module.exports = require("@mentorcub/tailwindcss/tailwind.config");
 ```
 
+### PostCSS Config
+
 After that, we also need to setup the `postcss.config.js` file with the configuration that is required by Tailwind CSS.
 
 ```js
 module.exports = require("@mentorcub/tailwindcss/postcss.config");
+```
+
+### CSS Configuration
+
+After we complete the configuration process, we need to add the line below in the primary CSS file that we use in our project, `index.css` or equivalent.
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
 
 We are all set!
