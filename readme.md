@@ -1,8 +1,8 @@
 # MentorCub Tailwind CSS
 
-We use Tailwind CSS to style our applications. Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces that is highly customizable.
+We use Tailwind CSS to style our applications. Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces that are highly customizable.
 
-This repository contains Tailwind CSS configuration, `tailwind.config.js`, that we will probably use in most of our applications and PostCSS configuration, `postcss.config.js` which is required by Tailwind CSS. The reason we create this repository is to prevent copy-pasting these Tailwind related files in case we change it in the future.
+This repository contains Tailwind CSS configuration, `tailwind.config.js`, which we will probably use in most of our applications, and PostCSS configuration, `postcss.config.js` which is required by Tailwind CSS. The reason we create this repository is to prevent copy-pasting these Tailwind-related files in case we change it in the future.
 
 ## Installation
 
@@ -16,7 +16,7 @@ npm i @mentorcub/tailwindcss
 
 ### Tailwind CSS Configuration
 
-After installing the package, add a `tailwind.config.js` file in the root of your project. Write the line below inside of the config file.
+After installing the package, add a `tailwind.config.js` file at the root of your project. Write the line below inside of the config file.
 
 ```js
 module.exports = require("@mentorcub/tailwindcss/tailwind.config");
@@ -24,7 +24,7 @@ module.exports = require("@mentorcub/tailwindcss/tailwind.config");
 
 ### PostCSS Configuration
 
-After that, we also need to setup the `postcss.config.js` file with the configuration that is required by Tailwind CSS.
+After that, we also need to set up the `postcss.config.js` file with the configuration that is required by Tailwind CSS.
 
 ```js
 module.exports = require("@mentorcub/tailwindcss/postcss.config");
