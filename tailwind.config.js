@@ -44,9 +44,15 @@ module.exports = {
     },
     borderRadius: {
       base: "0.5rem",
+      lg: "2rem",
+      full: "100rem",
     },
     boxShadow: {
       base: "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+    },
+    maxWidth: {
+      none: "none",
+      sm: "20rem",
     },
     extend: {},
   },
