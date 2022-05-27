@@ -53,6 +53,9 @@ module.exports = {
     maxWidth: {
       none: "none",
       sm: "20rem",
+      md: "25rem",
+      lg: "30rem",
+      full: "100%"
     },
     extend: {},
   },
